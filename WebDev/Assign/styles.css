@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.main-container {
+    background-color: #ffc2a0;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+
+.main-heading {
+    color: #ff8542;
+
+}
+
+.todos-container {}
+.subContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.subHeading{
+
+}
+.button{
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    
+
+}

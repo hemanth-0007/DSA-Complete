@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.favorites-section{
+ 
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-left: 10px;
+
+}
+.favorites-section-main-heading{
+    font-family: "Open Sans";
+    color: #002159;
+
+}
+.fav-section-image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.favorites-section-sub-section{
+   border-width: 0px;
+   padding-left: 0px;
+}
+.favorites-section-sub-section-heading{
+    font-family: "Open Sans";
+    color: #002159;
+    font-weight: 600;
+    font-size: 25px;
+}
+.fav-container-img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.side-bar{
+ 
+    background-color: #002159;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.side-bar-title{
+    font-family: "Open Sans";
+    color: white;
+
+}
+.options-main-container{
+    flex-grow: 1;
+}
+.option-container{
+ 
+    color: white;
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.option-container-fav{
+    background-color: #296eff;
+    border-radius: 20px;
+    
+    
+}
+.option-container-text{
+    margin-left: 7px;
+ 
+
+}
+.icon{
+  color: white;
+ 
+    
+}
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-grow: 1;
+
+    color: white;
+  
+    font-family: "Open Sans";
+}
+.profile-container-image{
+   height: 75px;
+   width: 75px;
+   border-radius: 50px;
+   padding: 10px;
+
+}
+

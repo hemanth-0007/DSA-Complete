@@ -1,0 +1,27 @@
+Problem Description
+Given a tree with N nodes. The tree is rooted at node 1.
+ All the nodes have a value of 0 or 1 assigned to them given by the array A.
+  The edges are given by the array B. The i-th edge connects the nodes B[i][0] and B[i][1].
+ You perform Q queries given by the array C of size Q*2.
+  The queries are given by X - f Flip the value of all the nodes in the subtree of X
+ 1 X - Flip the values of the all the nodes of subtree of X 
+ 2 X -Flip the value of the node X 
+After every query, answer the length of the longest alternating subarray in the preorder traversal of the tree.
+
+Note:-
+• The preorder traversal of a N-ary Tree is similar to the preorder traversal of a Binary Tree
+ and all the child nodes of a parent are traversed from left to right in a sequence.
+  If a node has multiple child nodes, then they are ordered left to right in ascending index of the child nodes.
+• A binary subarray is called alternating if none of the adjacent elements are same.
+
+Problem Constraints
+2 <= N <= 10 ^ 5
+A[i] = 0 or A[i] = 1 
+1 <= B[i][O], B[i][1] <= N 
+B[i][O] != B[i][1]
+ 1 <= Q <= 10 ^ 5
+ 1 <= X <= N
+Input Format:
+First argument A is an array of integers denoting the initial value of all the nodes. 
+Second argument B is a 2D array of integers denoting the edges of the tree.
+ Third argument C is also a 2D array of integers denoting the queries
